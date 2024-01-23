@@ -1,9 +1,13 @@
 package com.DropKart.ProductService.mapper;
 
+import java.util.Optional;
+
 import org.mapstruct.Mapper;
 
-import com.DropKart.ProductService.dto.ProductDto;
-import com.DropKart.ProductService.model.Product;
+import com.dropKart.commonDB.dto.ProductDto;
+import com.dropKart.commonDB.model.Product;
+
+
 
 
 @Mapper(componentModel="spring")
@@ -11,5 +15,6 @@ public interface ProductMapper {
 	
 	ProductDto toProductDto(Product product);
 	Product toProduct(ProductDto productDto);
+	ProductDto toProductDto(Optional<Product> product);
 
 }

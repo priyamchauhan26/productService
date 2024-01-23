@@ -2,11 +2,11 @@ package com.DropKart.ProductService.serviceImpl;
 
 import org.springframework.stereotype.Service;
 
-import com.DropKart.ProductService.dto.ProductRatingDto;
 import com.DropKart.ProductService.mapper.ProductRatingMapper;
-import com.DropKart.ProductService.model.ProductRating;
-import com.DropKart.ProductService.repo.ProductRatingRepo;
 import com.DropKart.ProductService.service.ProductRatingService;
+import com.dropKart.commonDB.dto.ProductRatingDto;
+import com.dropKart.commonDB.model.ProductRating;
+import com.dropKart.commonDB.repo.ProductRatingRepo;
 
 import lombok.RequiredArgsConstructor;
 

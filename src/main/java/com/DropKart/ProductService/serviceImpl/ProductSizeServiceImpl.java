@@ -5,11 +5,11 @@ import java.util.List;
 
 import org.springframework.stereotype.Service;
 
-import com.DropKart.ProductService.dto.ProductSizeDto;
 import com.DropKart.ProductService.mapper.ProductSizeMapper;
-import com.DropKart.ProductService.model.ProductSize;
-import com.DropKart.ProductService.repo.ProductSizeRepo;
 import com.DropKart.ProductService.service.ProductSizeService;
+import com.dropKart.commonDB.dto.ProductSizeDto;
+import com.dropKart.commonDB.model.ProductSize;
+import com.dropKart.commonDB.repo.ProductSizeRepo;
 
 import lombok.RequiredArgsConstructor;
 

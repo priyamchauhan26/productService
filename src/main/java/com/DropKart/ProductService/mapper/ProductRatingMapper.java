@@ -2,8 +2,9 @@ package com.DropKart.ProductService.mapper;
 
 import org.mapstruct.Mapper;
 
-import com.DropKart.ProductService.dto.ProductRatingDto;
-import com.DropKart.ProductService.model.ProductRating;
+import com.dropKart.commonDB.dto.ProductRatingDto;
+import com.dropKart.commonDB.model.ProductRating;
+
 
 @Mapper(componentModel="spring")
 public interface ProductRatingMapper {

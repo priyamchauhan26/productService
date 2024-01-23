@@ -10,11 +10,10 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
-
 import com.DropKart.ProductService.customException.InputDataNullException;
-import com.DropKart.ProductService.dto.MessageDto;
-import com.DropKart.ProductService.dto.ProductImagesDto;
 import com.DropKart.ProductService.service.ImageService;
+import com.dropKart.commonDB.dto.MessageDto;
+import com.dropKart.commonDB.dto.ProductImagesDto;
 
 import lombok.RequiredArgsConstructor;
 

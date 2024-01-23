@@ -5,11 +5,11 @@ import java.util.List;
 
 import org.springframework.stereotype.Service;
 
-import com.DropKart.ProductService.dto.ProductImagesDto;
 import com.DropKart.ProductService.mapper.ProductImagesMapper;
-import com.DropKart.ProductService.model.ProductImages;
-import com.DropKart.ProductService.repo.ProductImagesRepo;
 import com.DropKart.ProductService.service.ImageService;
+import com.dropKart.commonDB.dto.ProductImagesDto;
+import com.dropKart.commonDB.model.ProductImages;
+import com.dropKart.commonDB.repo.ProductImagesRepo;
 
 import lombok.RequiredArgsConstructor;
 

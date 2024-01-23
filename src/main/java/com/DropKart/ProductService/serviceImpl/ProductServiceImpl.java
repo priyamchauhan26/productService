@@ -6,15 +6,15 @@ import java.util.List;
 import org.springframework.stereotype.Service;
 
 import com.DropKart.ProductService.customException.ProductNotFoundException;
-import com.DropKart.ProductService.dto.ProductDiscountDto;
-import com.DropKart.ProductService.dto.ProductDto;
-import com.DropKart.ProductService.dto.ProductRatingDto;
 import com.DropKart.ProductService.mapper.ProductMapper;
-import com.DropKart.ProductService.model.Product;
-import com.DropKart.ProductService.repo.ProductRepo;
 import com.DropKart.ProductService.service.ProductDiscountService;
 import com.DropKart.ProductService.service.ProductRatingService;
 import com.DropKart.ProductService.service.ProductService;
+import com.dropKart.commonDB.dto.ProductDiscountDto;
+import com.dropKart.commonDB.dto.ProductDto;
+import com.dropKart.commonDB.dto.ProductRatingDto;
+import com.dropKart.commonDB.model.Product;
+import com.dropKart.commonDB.repo.ProductRepo;
 
 import lombok.RequiredArgsConstructor;
 
