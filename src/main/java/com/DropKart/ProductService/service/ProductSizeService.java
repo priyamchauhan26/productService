@@ -2,7 +2,8 @@ package com.DropKart.ProductService.service;
 
 import java.util.List;
 
-import com.DropKart.ProductService.dto.ProductSizeDto;
+import com.dropKart.commonDB.dto.ProductSizeDto;
+
 
 public interface ProductSizeService {
 

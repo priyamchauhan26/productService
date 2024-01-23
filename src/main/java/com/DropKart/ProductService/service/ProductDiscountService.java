@@ -1,6 +1,6 @@
 package com.DropKart.ProductService.service;
 
-import com.DropKart.ProductService.dto.ProductDiscountDto;
+import com.dropKart.commonDB.dto.ProductDiscountDto;
 
 public interface ProductDiscountService {
 

@@ -1,5 +1,5 @@
 package com.DropKart.ProductService.customException;
-import com.DropKart.ProductService.dto.*;
+import com.dropKart.commonDB.dto.MessageDto;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

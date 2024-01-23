@@ -10,10 +10,9 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
-
-import com.DropKart.ProductService.dto.MessageDto;
-import com.DropKart.ProductService.dto.ProductSizeDto;
 import com.DropKart.ProductService.service.ProductSizeService;
+import com.dropKart.commonDB.dto.MessageDto;
+import com.dropKart.commonDB.dto.ProductSizeDto;
 
 import lombok.RequiredArgsConstructor;
 

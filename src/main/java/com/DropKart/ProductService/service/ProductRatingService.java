@@ -1,6 +1,6 @@
 package com.DropKart.ProductService.service;
 
-import com.DropKart.ProductService.dto.ProductRatingDto;
+import com.dropKart.commonDB.dto.ProductRatingDto;
 
 public interface ProductRatingService {
 

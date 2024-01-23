@@ -1,8 +1,9 @@
 package com.DropKart.ProductService.mapper;
 
 import org.mapstruct.Mapper;
-import com.DropKart.ProductService.dto.ProductSizeDto;
-import com.DropKart.ProductService.model.ProductSize;
+
+import com.dropKart.commonDB.dto.ProductSizeDto;
+import com.dropKart.commonDB.model.ProductSize;
 
 @Mapper(componentModel="spring")
 public interface ProductSizeMapper {
